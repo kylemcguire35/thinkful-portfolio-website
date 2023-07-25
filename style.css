@@ -1,0 +1,79 @@
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+}
+
+header, footer {
+  background-color: #009dff;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+footer {
+  margin-top: 50px;  
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+div {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+}
+
+hr {
+  border: solid 1px;
+  margin-top: 30px;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffbb00;
+}
+
+a:visited {color: #ffae00}
+a:hover {color: #ffdf6b}
+
+.projects, .projects:visited, .projects:active {
+  text-decoration: none;
+  background-color: #ffc800;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.projects:hover {
+  background-color: #ffdf6b;
+}
+
+.btn {
+  padding-top: 12px;
+}
+
+.indent {
+  text-indent: 20px;
+}
+
+.center {
+  text-align: center;
+}
