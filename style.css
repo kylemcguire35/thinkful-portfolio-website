@@ -22,17 +22,13 @@ section {
   margin: auto;
 }
 
-div {
-  text-align: center;
-}
-
 img {
   width: 100%;
   margin-top: 30px;
   border-radius: 5px;
 }
 
-h2 {
+h2, h3 {
   text-align: center;
 }
 
@@ -53,19 +49,6 @@ a {
 
 a:visited {color: #ffae00}
 a:hover {color: #ffdf6b}
-
-.projects, .projects:visited, .projects:active {
-  text-decoration: none;
-  background-color: #ffc800;
-  color: white;
-  padding: 8px;
-  border-radius: 5px;
-}
-
-.projects:hover {
-  background-color: #ffdf6b;
-  color: white;
-}
 
 .btn {
   padding-top: 12px;
